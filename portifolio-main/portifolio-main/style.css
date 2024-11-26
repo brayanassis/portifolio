@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+:root {
+ --cor-principal: #ff0000;
+ --cor-secundaria: #1eff00;
+ --cor-destaque: #2b39fc;
+}
+
+body{
+    font-family: 'Parkinsans';
+}
+
+h1, h2, h5{
+  color: var(--cor-secundaria);
+  font-weight: 700;
+}
+
+footer a {
+    color:var(--cor-principal)
+}
+
+footer a:hover{
+    color: var(--cor-destaque)
+}
